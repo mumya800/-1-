@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main() 
+{
+    float C;
+    printf("Введите температуру в градусах Цельсия ");
+    scanf("%f", &C);
+    float F = (C * 9/5) + 32;
+    printf("C = %.0f ; F = %.2f", C, F);
+    return 0;
+}
