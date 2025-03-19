@@ -2,10 +2,10 @@
 
 int main() 
 {
-    float C;
+    float Celsius;
     printf("Введите температуру в градусах Цельсия ");
-    scanf("%f", &C);
-    float F = (C * 9/5) + 32;
-    printf("C = %.0f ; F = %.2f", C, F);
+    scanf("%f", &Celsius);
+    float Fahrenheit = (Celsius * 9/5) + 32;
+    printf("C = %.0f ; F = %.2f", Celsius, Fahrenheit);
     return 0;
 }
