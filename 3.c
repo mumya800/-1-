@@ -5,7 +5,7 @@ int main() {
     printf("Введите три числа: ");
     scanf("%d %d %d", &a, &b, &c);
     
-    int product_sign = (a == 0 || b == 0 || c == 0) * 0 + (a > 0) * (b > 0) * (c > 0) - (a < 0) * (b < 0) * (c < 0);
+    int product_sign = (a == 0 || b == 0 || c == 0) * 1 + (a > 0) * (b > 0) * (c > 0) * 2 - 1;
     
     printf("%d\n", product_sign);
     return 0;
