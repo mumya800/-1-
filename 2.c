@@ -8,8 +8,7 @@ int main() {
     
     bool is_even = (num % 2 == 0);
     
-    const char* result = is_even ? "число четное" : "число нечетное";
-    
-    printf("%s\n", result);
+    // 1 для четного числа, 0 для нечетного
+    printf("%d\n", is_even);
     return 0;
 }
